@@ -1,0 +1,11 @@
+--- a/ironicclient/v1/utils.py.orig	2018-06-27 10:41:33.214327733 +0300
++++ b/ironicclient/v1/utils.py	2018-06-27 10:41:44.314365970 +0300
+@@ -15,7 +15,7 @@
+ 
+ HTTP_METHODS = ['POST', 'PUT', 'GET', 'DELETE', 'PATCH']
+ 
+-BOOT_DEVICES = ['pxe', 'disk', 'cdrom', 'bios', 'safe', 'wanboot']
++BOOT_DEVICES = ['pxe', 'disk', 'cdrom', 'bios', 'safe', 'wanboot', 'floppy']
+ 
+ # Polling intervals in seconds.
+ _LONG_ACTION_POLL_INTERVAL = 10
